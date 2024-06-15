@@ -5,48 +5,263 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <section class="container max-w-screen-x1 m-auto flex items-center justify-between py-4">
-        <ul class="flex gap-8 font-medium text-lg">
-            <li class="hover:text-red-500"><a href="">Home</a></li>
-            <li class="hover:text-red-500"><a href="">Shop</a></li>
-            <li class="hover:text-red-500"><a href="">About</a></li>
-            <li class="hover:text-red-500"><a href="">Contact</a></li>
-        </ul>
-        <img src="./assets/logo/logo.jpg" alt="" width="80" height="80">
-        <div class="flex gap-4">
-            <span class="material-symbols-outlined">person</span>
-            <span class="material-symbols-outlined">search</span>
-            <span class="material-symbols-outlined">favorite</span>
-            <span class="material-symbols-outlined">shopping_cart</span>
-        </div>
-    </section>
-    <!-- End Navigation Bar -->
-    <section>
-        <div class="slide w-full">
-            <img src="./assets/img/1.webp" alt="">
-        </div>
-    </section>
-    <!-- End Slider -->
-    <section>
-        <div>
-            <h2>Sản Phẩm Mới</h2>
-            <a href="">Xem Sản Phẩm</a>
-        </div>
-        <div>
+    <header>
+        <section class="container max-w-screen-x1 m-auto flex items-center justify-between py-4">
+            <img src="./assets/logo/logo.png" alt="" width="120" height="80">
+            <ul class="flex gap-8 font-medium text-lg">
+                <li class="hover:text-red-500"><a href="./index.html">Home</a></li>
+                <li class="hover:text-red-500"><a href="./shop.html">Shop</a></li>
+                <li class="hover:text-red-500"><a href="./about.html">About</a></li>
+                <li class="hover:text-red-500"><a href="./contact.html">Contact</a></li>
+            </ul>
+            <div class="flex gap-4">
+                <span class="material-symbols-outlined">person</span>
+                <span class="material-symbols-outlined">search</span>
+                <span class="material-symbols-outlined">favorite</span>
+                <span class="material-symbols-outlined">shopping_cart</span>
+            </div>
+        </section>
+        <!-- End Navigation Bar -->
+        <section>
+            <div class="slide w-full">
+                <img src="./assets/img/1.jpg" alt="">
+            </div>
+        </section>
+        <!-- End Slider -->
+    </header>
+    <main>
+        <section class="container max-w-screen-xl m-auto mt-16">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="form-semibold text-[40px]">New Products</h2>
+                <a href="./shop.html"
+                    class="border border-yellow-500 px-4 py-2 font-semibold text-base text-yellow-500 ">View all
+                    Products</a>
+            </div>
+            <div class="grid grid-cols-4 gap-8">
+                <div>
+                    <div class="overflow-hidden">
+                        <img src="./assets/img/products1.jpg" alt="" class="hover:scale-125 duration-1000">
+                    </div>
+                    <div class="bg-[#f5f5f5] p-4">
+                        <h3 class="font-semibold text-x1 mt-1 mb-2">Syltherine</h3>
+                        <p class="text-[#a9a9a9] text-base mb-3 ">Stylish cafe chair</p>
+                        <p class="font-semibold text-x1 text-red-600">2.500.000</p>
+                        <button
+                            class="border border-yellow-500 px-4 py-2 font-semibold text-base text-yellow-700 w-full hover:bg-yellow-500 hover:text-white">
+                            <a href="./cart.html">Add to cart</a></button>
+                    </div>
+                </div>
+                <!-- end New Product1 -->
+                <div>
+                    <div class="overflow-hidden">
+                        <a href="./detailProduct.html">
+                            <img src="./assets/img/product_detail.jpg" alt="" class="hover:scale-125 duration-1000">
+                        </a>
+                    </div>
+                    <div class="bg-[#f5f5f5] p-4">
+                        <h3 class="font-semibold text-x1 mt-1 mb-2">Syltherine</h3>
+                        <p class="text-[#a9a9a9] text-base mb-3 ">Stylish cafe chair</p>
+                        <p class="font-semibold text-x1 text-red-600">2.500.000</p>
+                        <button
+                            class="border border-yellow-500 px-4 py-2 font-semibold text-base text-yellow-700 w-full hover:bg-yellow-500 hover:text-white">Add
+                            to
+                            cart</button>
+                    </div>
+                </div>
+                <!-- end New Product2 -->
+                <div>
+                    <div class="overflow-hidden">
+                        <img src="./assets/img/products1.jpg" alt="" class="hover:scale-125 duration-1000">
+                    </div>
+                    <div class="bg-[#f5f5f5] p-4">
+                        <h3 class="font-semibold text-x1 mt-1 mb-2">Syltherine</h3>
+                        <p class="text-[#a9a9a9] text-base mb-3 ">Stylish cafe chair</p>
+                        <p class="font-semibold text-x1 text-red-600">2.500.000</p>
+                        <button
+                            class="border border-yellow-500 px-4 py-2 font-semibold text-base text-yellow-700 w-full hover:bg-yellow-500 hover:text-white">Add
+                            to
+                            cart</button>
+                    </div>
+                </div>
+                <!-- end New Product3 -->
+                <div>
+                    <div class="overflow-hidden">
+                        <img src="./assets/img/products1.jpg" alt="" class="hover:scale-125 duration-1000">
+                    </div>
+                    <div class="bg-[#f5f5f5] p-4">
+                        <h3 class="font-semibold text-x1 mt-1 mb-2">Syltherine</h3>
+                        <p class="text-[#a9a9a9] text-base mb-3 ">Stylish cafe chair</p>
+                        <p class="font-semibold text-x1 text-red-600">25.000.000đ</p>
+                        <button
+                            class="border border-yellow-500 px-4 py-2 font-semibold text-base text-yellow-700 w-full hover:bg-yellow-500 hover:text-white">
+                            <a href="./cart.html">Add to cart</a>
+                        </button>
+                    </div>
+                </div>
+                <!-- end New Product4 -->
+            </div>
+        </section>
+        <!-- end New Product -->
+        <section class="container max-w-screen-xl m-auto mt-16">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="form-semibold text-[40px]">Gallery</h2>
+                <a href="" class="border border-yellow-500 px-4 py-2 font-semibold text-base text-yellow-500 ">View all
+                    Gallery</a>
+            </div>
+            <div class="grid grid-cols-3 gap-8">
+                <img src="./assets/img/gally1.jpg" alt="">
+                <img src="./assets/img/gally2.png" alt="">
+                <img src="./assets/img/gally3.png" alt="">
+                <img src="./assets/img/gally4.png" alt="">
+                <img src="./assets/img/gally5.png" alt="">
+                <img src="./assets/img/gally6.png" alt="">
+            </div>
+
+        </section>
+        <!-- End Gallery -->
+        <section class="container max-w-screen-xl m-auto mt-16">
+            <div class="flex justify-between items-center mb-4">
+                <h2 class="form-semibold text-[40px]">News</h2>
+                <a href="" class="border border-yellow-500 px-4 py-2 font-semibold text-base text-yellow-500 ">View all
+                    News</a>
+            </div>
+            <div class="grid grid-cols-4 gap-8">
+                <div>
+                    <div>
+                        <img src="./assets/img/news1.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-[#a9a9a9] font-semibold text-sm mt-4 mb-1 flex items-center"><span
+                                class="material-symbols-outlined mr-2">calendar_month</span>24/4/2024</p>
+                        <h3 class="font-semibold text-xl mt-1 mb-3">A bedroom must have something like this</h3>
+                        <a href="" class="text-red-600 font-semibold text-base flex items-center">Xem chi tiết<span
+                                class="material-symbols-outlined ml-2">arrow_forward</span></a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./assets/img/news1.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-[#a9a9a9] font-semibold text-sm mt-4 mb-1 flex items-center"><span
+                                class="material-symbols-outlined mr-2">calendar_month</span>24/4/2024</p>
+                        <h3 class="font-semibold text-xl mt-1 mb-3">A bedroom must have something like this</h3>
+                        <a href="" class="text-red-600 font-semibold text-base flex items-center">Xem chi tiết<span
+                                class="material-symbols-outlined ml-2">arrow_forward</span></a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./assets/img/news1.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-[#a9a9a9] font-semibold text-sm mt-4 mb-1 flex items-center"><span
+                                class="material-symbols-outlined mr-2">calendar_month</span>24/4/2024</p>
+                        <h3 class="font-semibold text-xl mt-1 mb-3">A bedroom must have something like this</h3>
+                        <a href="" class="text-red-600 font-semibold text-base flex items-center">Xem chi tiết<span
+                                class="material-symbols-outlined ml-2">arrow_forward</span></a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="./assets/img/news1.jpg" alt="">
+                    </div>
+                    <div>
+                        <p class="text-[#a9a9a9] font-semibold text-sm mt-4 mb-1 flex items-center"><span
+                                class="material-symbols-outlined mr-2">calendar_month</span>24/4/2024</p>
+                        <h3 class="font-semibold text-xl mt-1 mb-3">A bedroom must have something like this</h3>
+                        <a href="" class="text-red-600 font-semibold text-base flex items-center">Xem chi tiết<span
+                                class="material-symbols-outlined ml-2">arrow_forward</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End News -->
+
+        <section class="bg-[#FFF7ED] py-16 mt-16">
+            <div class="container max-w-screen-xl m-auto grid grid-cols-4">
+                <div class="flex gap-5 items-center">
+                    <div>
+                        <img src="./assets/img/qually1.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-xl">High Quality</h3>
+                        <p class="text-[#898989]">Crafted from top materials</p>
+                    </div>
+                </div>
+                <div class="flex gap-5 items-center">
+                    <div>
+                        <img src="./assets/img/qually2.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-xl">24 / 7 Support</h3>
+                        <p class="text-[#898989]">Dedicated support</p>
+                    </div>
+                </div>
+                <div class="flex gap-5 items-center">
+                    <div>
+                        <img src="./assets/img/qually3.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-xl">Warranty Protection</h3>
+                        <p class="text-[#898989]">Over 2 years</p>
+                    </div>
+                </div>
+                <div class="flex gap-5 items-center">
+                    <div>
+                        <img src="./assets/img/qually4.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-xl">Free Shipping</h3>
+                        <p class="text-[#898989]">Order over 150 $</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Quality -->
+    </main>
+    <footer class="bg-[#262626] text-white pt-16 pb-8">
+        <div class="container max-w-screen-xl m-auto grid grid-cols-4 gap-8 mb-16">
             <div>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-                <p></p>
-                <button>Thêm Giỏ Hàng</button>
+                <img src="./assets/logo/footer.svg" alt="" class="mb-4 text-[#FFF]">
+                <p>400 University Drive Suite 200 Coral Gables,
+                    FL 33134 USA</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Sitemap</h3>
+                <ul>
+                    <li class="mb-4"><a href="">Home</a></li>
+                    <li class="mb-4"><a href="">Shop</a></li>
+                    <li class="mb-4"><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Help</h3>
+                <ul>
+                    <li class="mb-4"><a href="">Payment Options</a></li>
+                    <li class="mb-4"><a href="">Returns</a></li>
+                    <li><a href="">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Location</h3>
+                <ul>
+                    <li class="mb-4"><a href="">support@euphoria.in</a></li>
+                    <li class="mb-4"><a href="">support@euphoria.in</a></li>
+                    <li><a href="">Udaipur, India- 313002</a></li>
+                </ul>
             </div>
         </div>
-    </section>
+        <hr />
+        <p class="text-center mt-8">Copyright © 2024. All Rights Reserved.</p>
+    </footer>
 </body>
 
 </html>

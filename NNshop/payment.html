@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section class="container max-w-screen-x1 m-auto flex items-center justify-between py-4">
+            <img src="./assets/logo/logo.png" alt="" width="120" height="80">
+            <ul class="flex gap-8 font-medium text-lg">
+                <li class="hover:text-red-500"><a href="">Home</a></li>
+                <li class="hover:text-red-500"><a href="./shop.html">Shop</a></li>
+                <li class="hover:text-red-500"><a href="">About</a></li>
+                <li class="hover:text-red-500"><a href="">Contact</a></li>
+            </ul>
+            <div class="flex gap-4">
+                <span class="material-symbols-outlined">person</span>
+                <span class="material-symbols-outlined">search</span>
+                <span class="material-symbols-outlined">favorite</span>
+                <span class="material-symbols-outlined">shopping_cart</span>
+            </div>
+        </section>
+        <!-- End Navigation Bar -->
+        <!-- <section>
+            <div class="slide w-full">
+                <img src="./assets/img/1.jpg" alt="">
+            </div>
+        </section> -->
+        <!-- End Slider -->
+    </header>
+    <main>
+        <section class="container max-w-screen-xl m-auto">
+            <h1 class="font-semibold text-[40px] mt-16 mb-8">Billing details</h1>
+            <div class="grid grid-cols-2 gap-8 mb-16">
+                <div>
+                    <form action="">
+                        <div class="grid grid-cols-2 gap-8">
+                            <div>
+                                <label for="lastname" class="font-medium">Last name:</label>
+                                <input type="text" name="lastname"
+                                    class="border border-solid border-neutral-300 block w-full outline-none p-2 mt-2">
+                            </div>
+                            <div>
+                                <label for="firstname" class="font-medium mb-2">First name:</label>
+                                <input type="text" name="firstname"
+                                    class="border border-solid border-neutral-300 block w-full outline-none p-2 mt-2">
+                            </div>
+                        </div>
+                        <!-- End Name -->
+                        <div class="mt-8">
+                            <label for="company" class="font-medium">Comoany Name (Option):</label>
+                            <input type="text" name="company"
+                                class="block w-full p-2 border border-solid border-neutral-300 outline-none mt-2">
+                        </div>
+                        <!-- End Company -->
+                        <div class="mt-8">
+                            <label for="country" class="font-medium">Country / Region</label>
+                            <div class="border border-solid border-neutral-300 outline-none p-2 mt-2">
+                                <select name="country" id="" class="block w-full ">
+                                    <option value="" class="font-medium hidden text-[#A3A3A3]">Choose Country</option>
+                                    <option value="Viet Nam">Viet Nam</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="Korea">Korea</option>
+                                    <option value="China">China</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- End Country -->
+                        <div class="mt-8">
+                            <label for="address" class="font-medium">Street address</label>
+                            <input type="text" name="address"
+                                class="block w-full p-2 border border-solid border-neutral-300 outline-none mt-2">
+                        </div>
+                        <!-- End Address -->
+                        <div class="mt-8">
+                            <label for="city" class="font-medium">Town / City</label>
+                            <input type="text" name="city"
+                                class="block w-full p-2 border border-solid border-neutral-300 outline-none mt-2">
+                        </div>
+                        <!-- End city -->
+                        <div class="mt-8">
+                            <label for="province" class="font-medium">Province</label>
+                            <div class="border border-solid border-neutral-300 outline-none p-2 mt-2">
+                                <select name="province" id="" class="block w-full ">
+                                    <option value="" class="font-medium hidden ">Choose Province</option>
+                                    <option value="Viet Nam">Viet Nam</option>
+                                    <option value="Japan">Japan</option>
+                                    <option value="Korea">Korea</option>
+                                    <option value="China">China</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- End Province -->
+                        <div class="mt-8">
+                            <label for="zipcode" class="font-medium">Zipcode</label>
+                            <input type="text" name="zipcode"
+                                class="block w-full p-2 border border-solid border-neutral-300 outline-none mt-2">
+                        </div>
+                        <!-- End ZipCode -->
+                        <div class="mt-8">
+                            <label for="phone" class="font-medium">Phone</label>
+                            <input type="text" name="phone"
+                                class="block w-full p-2 border border-solid border-neutral-300 outline-none mt-2">
+                        </div>
+                        <!-- End Phone -->
+                        <div class="mt-8">
+                            <label for="email" class="font-medium">Email</label>
+                            <input type="text" name="email"
+                                class="block w-full p-2 border border-solid border-neutral-300 outline-none mt-2">
+                        </div>
+                        <!-- End Mail -->
+                    </form>
+                </div>
+                <!-- End Form  -->
+                <div>
+                    <p class="*:font-semibold *:text-2xl flex justify-between">
+                        <span>Product</span>
+                        <span>Subtotal</span>
+                    </p>
+                    <p class="flex justify-between mt-4">
+                        <span class="text-neutral-500">Asgaard sofa <strong
+                                class="font-medium text-black">X1</strong></span>
+                        <span class="font-medium">25.000.000đ</span>
+                    </p>
+                    <p class="flex justify-between mt-4">
+                        <span>Subtotal</span>
+                        <span class="font-medium">25.000.000đ</span>
+                    </p>
+                    <p class="flex justify-between mt-4">
+                        <span>Total</span>
+                        <span class="font-bold text-xl text-yellow-500">25.000.000đ</span>
+                    </p>
+                    <hr class="my-8 border border-[#A3A3A3]">
+                    <div class="mb-8">
+                        <div>
+                            <input type="radio" name="bank" id="">
+                            <span class="font-medium ml-2">Direct Bank Transfer</span>
+                        </div>
+                        <p class="text-[#A3A3A3] mt-3">
+                            I hope all is okay with you. I'm getting in touch with you on behalf
+                            of [your company name] regarding the following invoice:
+                        </p>
+                        <div class="my-4">
+                            <input type="radio" name="bank" id="">
+                            <span class="font-medium ml-2 text-[#A3A3A3] ">ATM Bank Transfer</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="bank" id="">
+                            <span class="font-medium ml-2 text-[#A3A3A3]">Cash On Delivery</span>
+                        </div>
+                    </div>
+                    <!-- Eng Payment -->
+                    <p class="font-bold ">
+                        This invoice is due for payment on [invoice due date]. Could you kindly let me know that you
+                        have received
+                        this invoice and let me know if payment has been arranged?
+                    </p>
+                    <div class="text-center mt-8">
+                        <a href=""
+                            class="border border-solid border-yellow-500 text-yellow-600 font-semibold py-2 px-24 inline-block hover:bg-yellow-600 hover:text-white">Place
+                            order</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-[#262626] text-white pt-16 pb-8">
+        <div class="container max-w-screen-xl m-auto grid grid-cols-4 gap-8 mb-16">
+            <div>
+                <img src="./assets/logo/footer.svg" alt="" class="mb-4 text-[#FFF]">
+                <p>400 University Drive Suite 200 Coral Gables,
+                    FL 33134 USA</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Sitemap</h3>
+                <ul>
+                    <li class="mb-4"><a href="">Home</a></li>
+                    <li class="mb-4"><a href="">Shop</a></li>
+                    <li class="mb-4"><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Help</h3>
+                <ul>
+                    <li class="mb-4"><a href="">Payment Options</a></li>
+                    <li class="mb-4"><a href="">Returns</a></li>
+                    <li><a href="">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-xl mb-4">Location</h3>
+                <ul>
+                    <li class="mb-4"><a href="">support@euphoria.in</a></li>
+                    <li class="mb-4"><a href="">support@euphoria.in</a></li>
+                    <li><a href="">Udaipur, India- 313002</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr />
+        <p class="text-center mt-8">Copyright © 2024. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
