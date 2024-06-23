@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "id": "2",
+      "title": "Book Title 2",
+      "thumbnail": "https://picsum.photos/100/120",
+      "price": 200
+    },
+    {
+      "id": "3",
+      "title": "Book Title 3",
+      "thumbnail": "https://picsum.photos/100/120",
+      "price": 300
+    },
+    {
+      "id": "4",
+      "title": "Book Title 4",
+      "thumbnail": "https://picsum.photos/100/120",
+      "price": 400
+    },
+    {
+      "id": "3ec6",
+      "title": "Airpro 12",
+      "thumbnail": "https://picsum.photos/100/120",
+      "price": "147"
+    }
+  ]
+}
